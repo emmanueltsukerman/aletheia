@@ -19,7 +19,7 @@ Aletheia is an open source image steganalysis tool for the detection of hidden m
 First you need to clone the GIT repository:
 
 ```bash
-$ git clone https://github.com/daniellerch/aletheia.git
+$ git clone https://github.com/emmanueltsukerman/aletheia.git
 ```
 
 Inside the Aletheia directory you will find a requirements file for installing Python dependencies with pip:
@@ -135,7 +135,7 @@ We are going to build a detector for the HILL algorithm with payload 0.40. So we
 $ ./aletheia.py hill-sim bossbase 0.40 bossbase_hill040 
 ```
 
-With all the images prepared we need to extract features that can be processes by a machine learning algorithm. Aletheia provides different feature extractors, in this case we will use well known Rich Models. The following commands save the features into two files, on file for cover images and one file for stego images. 
+With all the images prepared we need to extract features that can be processes by a machine learning algorithm. Aletheia provides different feature extractors, in this case we will use well known Rich Models. The following commands save the features into two files, one file for cover images and one file for stego images. 
 
 ```bash
 $ ./aletheia.py srm bossbase bossbase.fea 
