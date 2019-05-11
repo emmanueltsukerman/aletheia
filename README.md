@@ -129,7 +129,7 @@ $ wget http://dde.binghamton.edu/download/ImageDB/BOSSbase_1.01.zip
 $ unzip BOSSbase_1.01.zip
 ```
 
-We are going to build a detector for the HILL algorithm with payload 0.40. So we need to prepare a set of images with data hidden using this algorithm. The following command embeds information into all the images downloaded:
+Rename the resulting folder bossbase. We are going to build a detector for the HILL algorithm with payload 0.40. So we need to prepare a set of images with data hidden using this algorithm. The following command embeds information into all the images downloaded:
 
 ```bash
 $ ./aletheia.py hill-sim bossbase 0.40 bossbase_hill040 
